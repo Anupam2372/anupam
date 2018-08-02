@@ -1,5 +1,5 @@
-#include <GLUT/glut.h>
-#include <GL/glut.h>
+#include <GL/freeglut.h>
+#include <GL/gl.h>
 #include <math.h>
 
 void drawpattern()
@@ -94,7 +94,7 @@ int main(int argc, char **argv)
         glutInitWindowPosition(100, 100);
 
         // Create window
-        glutCreateWindow("OpenGL_Pattern_Printing);
+        glutCreateWindow("OpenGL_Pattern_Printing");
         
         // Callback functions
         glutDisplayFunc(drawpattern);
