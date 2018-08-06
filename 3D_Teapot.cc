@@ -4,6 +4,7 @@
 GLfloat xRotated, yRotated, zRotated;
 GLdouble size=1;
 
+
 void display(void)
 {
 
