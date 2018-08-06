@@ -1,9 +1,7 @@
 #include<GL/freeglut.h>
 #include<GL/gl.h>
 
-/* 
-This is the actual usage of the OpenGL library. 
-The following code is the same for any platform */
+
 void renderFunction()
 {
     glClearColor(0.0, 0.0, 0.0, 0.0);
@@ -19,9 +17,7 @@ void renderFunction()
     glFlush();
 }
 
-/* Main method - main entry point of application
-the freeglut library does the window creation work for us, 
-regardless of the platform. */
+
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
