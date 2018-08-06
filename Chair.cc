@@ -1,8 +1,6 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
- 
- 
- 
+  
 //Initializes 3D rendering
 void initRendering() {
  glEnable(GL_DEPTH_TEST);
