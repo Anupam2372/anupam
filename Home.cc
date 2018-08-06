@@ -1,8 +1,13 @@
-#include<windows.h>
-#include <GL/glut.h>
+#include<GL/freeglut.h>
+#include<GL/gl.h>
  
-void house (void) {
-    glBegin(GL_QUADS); //roof
+void house (void)
+{
+
+glClearColor(0.0f, 0.0f, 0.0f, 1.0f);    // Set background color to black and opaque
+glClear(GL_COLOR_BUFFER_BIT);            // Clear the color buffer
+
+ glBegin(GL_QUADS); //roof
  glColor3f(0.1,0.9,1);
  glVertex3f(0.5, 0.4, 0);
  glVertex3f(-0.3, 0.4, 0);
@@ -11,7 +16,7 @@ void house (void) {
  glEnd();//end the shape we are currently working on
  
  
-    glBegin(GL_TRIANGLES); //side roof
+ glBegin(GL_TRIANGLES); //side roof
  glColor3f(0.38,0.52,1);
  glVertex3f(0.5, 0.4, 0);
  glVertex3f(0.3, 0.0, 0);
