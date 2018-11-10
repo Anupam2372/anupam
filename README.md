@@ -8,4 +8,4 @@ Above compilation will produce an output file "filename"
 
 Run this output file : ./filename
 
-And your done.
+And you are done.
